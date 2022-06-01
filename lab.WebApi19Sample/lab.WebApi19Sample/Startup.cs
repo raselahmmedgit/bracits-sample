@@ -19,6 +19,7 @@ namespace lab.WebApi19Sample
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
